@@ -28,3 +28,29 @@
 
 # Generated outputs should be explicitly selected before committing
 **/outputs/generated/
+
+# This repository intentionally tracks Python source code only.
+*.md
+*.sql
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.zip
+*.mp4
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.yaml
+*.yml
+*.toml
+*.ini
+*.cfg
+*.json
+**/.env.example
+database/
+docs/
+scripts/
+**/outputs/
